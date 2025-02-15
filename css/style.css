@@ -1,0 +1,122 @@
+@import url(variables.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 39px 20.5px;
+}
+
+/* OPTIONS HEADER */
+.options_header {
+    background: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.option_menu {
+}
+
+/* TITLE */
+.container_title{
+    background-color: aqua;
+    width: 100%;
+    .title{
+        background: greenyellow;
+        width: 265px;
+        height: 72px;
+        h1:nth-child(1){
+            font-family: "Inter-SemiBold";
+            font-size: 30px;
+            color: var(--color-2);
+        }
+        h1:nth-child(2){
+            font-family: "Inter-SemiBold";
+            font-size: 30px;
+            color: var(--color-3);
+        }
+    }
+}
+.option_notificacion {
+}
+/* SEARCH HEADER */
+.search_header {
+    background: green;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.serch_container {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 12px;
+    .search{
+        display: flex;
+        flex-direction: row;
+        gap: 98px;
+        .section_search{
+
+        }
+    }
+}
+.recomend_search {
+    display: flex;
+    background: orange;
+    position: absolute;
+    flex-direction: row;
+    gap: 12px;
+    width: 391px;
+    height: 28px;
+}
+.recomend1 {
+    background: white;
+    display: flex;
+    padding: 6.5px 14.5px;
+    border-radius: 8px;
+    a{
+        font-family: "Inter-Regular";
+        font-size: 12px;
+        text-decoration: none; /* Quita el subrayado */
+        color: black; 
+    }
+}
+.recomend2 {
+    background: white;
+    border-radius: 8px;
+    width: 112px;
+    height: 28px;
+    a{
+        font-family: "Inter-Regular";
+        font-size: 12px;
+        text-decoration: none; /* Quita el subrayado */
+        color: black; 
+    }
+}
+.recomend3 {
+    background: white;
+    border-radius: 8px;
+    width: 112px;
+    height: 28px;
+    a{
+        font-family: "Inter-Regular";
+        font-size: 12px;
+        text-decoration: none; /* Quita el subrayado */
+        color: black; 
+    }
+}
+.recomend4 {
+    background: white;
+    border-radius: 8px;
+    width: 112px;
+    height: 28px;
+    a{
+        font-family: "Inter-Regular";
+        font-size: 12px;
+        text-decoration: none; /* Quita el subrayado */
+        color: black; 
+    }
+}
