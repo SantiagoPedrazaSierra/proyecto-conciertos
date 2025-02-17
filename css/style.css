@@ -21,6 +21,7 @@ body{
 
 /* TITLE */
 .container_title{
+    margin-top: 20px;
     width: 100%;
     .title{
         width: 265px;
@@ -40,13 +41,8 @@ body{
 .option_notificacion {
 }
 /* SEARCH HEADER */
-.search_header {
-    background: green;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
 .serch_container {
+    margin-top: 20px;
     background: var(--color-1);
     display: flex;
     width: 100%;
@@ -83,7 +79,7 @@ body{
     display: flex;
     flex-direction: row;
     gap: 12px;
-    width: 391px;
+    width: 100%;
     height: 28px;
     margin-top: 16px;
     overflow-x: auto;
@@ -91,8 +87,6 @@ body{
     scrollbar-width: none;
     a{
         flex: 0 0 auto;
-        width: 112px;
-        height: 28px;
         font-family: "Inter-Regular";
         font-size: 12px;
         border-radius: 8px;
@@ -103,17 +97,25 @@ body{
         color: var(--color-2);
     }
     a:nth-child(1){
+        width: 112px;
+        height: 28px;
         background: var(--color-fond-1);
     }
     a:nth-child(2){
+        width: 76px;
+        height: 28px;
         background: var(--color-fond-2);
     }
 
     a:nth-child(3){
+        width: 104px;
+        height: 28px;
         background: var(--color-fond-3);
     }
 
     a:nth-child(4){
+        width: 63px;
+        height: 28px;
         background: var(--color-fond-4);
     }
 
