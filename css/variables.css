@@ -1,7 +1,13 @@
 :root{
+    --color-0: #d9d7e479;
     --color-1: #FFFFFF;
     --color-2: #000000;
     --color-3: #761CBC;
+    --color-fond-1: #EDE9FF;
+    --color-fond-2: #FFF5D7;
+    --color-fond-3: #FFECEC;
+    --color-fond-4: #E4FFEA;
+
 }
 @font-face {
     font-family: "Inter-SemiBold";
