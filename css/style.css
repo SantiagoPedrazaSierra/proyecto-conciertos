@@ -48,6 +48,7 @@ body{
     width: 100%;
     padding: 12px;
     justify-content: space-between;
+    border-radius: 10px;
 
     button{
         width: 17px;
