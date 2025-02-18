@@ -1,0 +1,22 @@
+@import url(variables.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../storade/img/imgmain.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 39px 20.5px;
+}
+.option_atras {
+    background-color: rgba(255, 255, 255, 0.397);
+    backdrop-filter: blur(12.5px);
+    display: flex;
+    padding: 7px;
+    width: 34px;
+    height: 34px;
+    border-radius: 6px;
+}
