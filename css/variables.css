@@ -2,10 +2,10 @@
     --color-0: #d9d7e44f;
     --color-1: #FFFFFF;
     --color-2: #706D6D;
-    --color-2: #000000;
-    --color-3: #761CBC;
-    --color-4: #0092FC;
-    --color-5: #EC441E;
+    --color-3: #000000;
+    --color-4: #761CBC;
+    --color-5: #0092FC;
+    --color-6: #EC441E;
 }
 @font-face {
     font-family: "Inter-SemiBold";
@@ -16,6 +16,10 @@
     src: url(../storade/font/Inter_18pt-Regular.ttf);
 }
 @font-face {
-    font-family: "Quicksand-Regular";
-    src: url(../storage/font/Quicksand-Regular.ttf);
+    font-family: "Inter-Medium";
+    src: url(../storade/font/Inter_18pt-Medium.ttf);
+}
+@font-face {
+    font-family: "DMSans-Medium";
+    src: url(../storade/font/DMSans_18pt-Medium.ttf;)
 }
