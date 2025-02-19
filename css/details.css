@@ -1,4 +1,4 @@
-@import url(variables.css);
+@import url(variables_details.css);
 *{
     margin: 0;
     padding: 0;
@@ -7,36 +7,49 @@
 
 body{
     background-color: var(--color-0);
-    background-image: url(../storade/img/imgmain.svg);
-    position: absolute;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0 auto;
 }
 header{
     padding-top: 22px;
-}
-main{
-    padding: 22px;
-}
+  }
+  .header {
+    width: 100%;
+    background-size: cover;
+    height: 36%;
+    z-index: -1;
+    position: relative;
+  
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  
+    .option_atras{
+      position: absolute;
+      background:transparent;
+      top: 35px;
+      left: 22px;
+      padding: 7px;
+      width: 34px;
+      height: 34px;
+      border-radius: 6px;
+      border: none;
+      img{
+        width: 34px;
+        height: 34px;
+      }
+    }
+  }
 
-/* BOTON DE ATRAS */
-.option_atras {
-    background: transparent;
-    display: flex;
-    padding: 7px;
-    width: 34px;
-    height: 34px;
-    border-radius: 6px;
-    border: none;
-}
+  main{
+    padding: 20px;
+  }
 
 /* TEXTO PRINCIPAL */
 .textmain_container {
     background:var(--color-1);
     width: 100%;
     height: 140px;
-    margin-top: 177px;
+    margin-top: -90px;
     border-radius: 14px;
 }
 .textmain {

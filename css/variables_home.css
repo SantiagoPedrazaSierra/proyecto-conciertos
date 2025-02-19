@@ -13,13 +13,13 @@
 }
 @font-face {
     font-family: "Inter-SemiBold";
-    src: url(../storade/font/Inter_18pt-SemiBold.ttf);
+    src: url(../storade/Page_Home/font/Inter_18pt-SemiBold.ttf);
 }
 @font-face {
     font-family: "Inter-Regular";
-    src: url(../storade/font/Inter_18pt-Regular.ttf);
+    src: url(../storade/Page_Home/font/Inter_18pt-Regular.ttf);
 }
 @font-face {
     font-family: "Quicksand-Regular";
-    src: url(../storage/font/Quicksand-Regular.ttf);
+    src: url(../storade/Page_Home/font/Quicksand-Regular.ttf);
 }
