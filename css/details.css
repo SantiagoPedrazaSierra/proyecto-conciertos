@@ -11,21 +11,25 @@ body{
 header{
     padding-top: 22px;
   }
+  header {
+    padding-top: 22px;
+  }
+  
   .header {
     width: 100%;
     background-size: cover;
     height: 36%;
-    z-index: -1;
-    position: relative;
+    position: relative; /* Elimina z-index: -1 */
   
     img {
       width: 100%;
       object-fit: cover;
+      /* Elimina z-index: -1 */
     }
   
-    .option_atras{
+    .option_atras {
       position: absolute;
-      background:transparent;
+      background: transparent;
       top: 35px;
       left: 22px;
       padding: 7px;
@@ -33,13 +37,14 @@ header{
       height: 34px;
       border-radius: 6px;
       border: none;
-      img{
+      z-index: 1; /* Mantén este z-index para que esté por encima */
+  
+      img {
         width: 34px;
         height: 34px;
       }
     }
   }
-
   main{
     padding: 20px;
   }
