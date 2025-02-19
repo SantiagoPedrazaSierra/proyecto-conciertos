@@ -49,11 +49,14 @@ body{
     white-space: nowrap;
     scrollbar-width: none;
 } 
+.container_scroll::-webkit-scrollbar {
+    display: none;
+}
 
 /* CONTAINER TICKET */
 .container_ticket {
     background: var(--color-3);
-    width: 100%;
+    width: 343.5px;
     height: 596px;
     margin-left: 22px;
     margin-top: 46px;
@@ -136,7 +139,8 @@ body{
 
 /* IMG CODE */
 .code{
-    margin-left: 18px;
+    display: flex;
+    margin-left: 17px;
     margin-top: 6px;
 
 }
@@ -144,8 +148,8 @@ body{
 /* TEXT CODE */
 .textcode{
     width: 100%;
-    height: 15px;
-    margin-top: -5px;
+    display: flex;
+    align-items: center;
     p{
         font-size: 12px;
         font-family: "Inter-Regular";
