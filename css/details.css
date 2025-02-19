@@ -51,6 +51,7 @@ header{
 
 /* TEXTO PRINCIPAL */
 .textmain_container {
+    position: relative;
     background:var(--color-1);
     width: 100%;
     height: 140px;
